@@ -1,0 +1,19 @@
+﻿@model School.Models.StudentCheck
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Thanks</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body class="text-center"> 
+        <div>
+            <h1>You have now added, @Model.Name!</h1>
+        </div>
+        Click <a asp-action="ListStudents">here</a> to see Students.
+        Click <a asp-action="Index">here</a> to go back.
+    </body>
+</html>

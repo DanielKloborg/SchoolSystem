@@ -1,0 +1,19 @@
+@model School.Models.StudentCheck
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+    <title>School service</title>
+</head>
+<body>
+    <div class="text-center">
+        <h3> School attending service</h3>
+        <a class="btn btn-primary" asp-action="InsertStudent">Add student</a>
+        <a class="btn btn-primary" asp-action="ListStudents">See students</a>
+    </div>
+</body>
+</html>
